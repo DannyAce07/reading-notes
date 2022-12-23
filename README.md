@@ -10,3 +10,8 @@ Keeping myself in a growth mindset:
 1. Google isn't your only friend, don't be afraid to ask for help
 2. Don't be the smartest person in the room
 3. Be better than you were last year, last month, last week
+
+## Table of Contents
+
+[Coders Computer]<https://dannyace07.github.io/reading-notes/codersComputer>
+[Revisions and Cloud]<https://dannyace07.github.io/reading-notes/RevisionsandCloud>
