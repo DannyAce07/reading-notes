@@ -13,5 +13,5 @@ Keeping myself in a growth mindset:
 
 ## Table of Contents
 
-[Coders Computer]<https://dannyace07.github.io/reading-notes/codersComputer>
-[Revisions and Cloud]<https://dannyace07.github.io/reading-notes/RevisionsandCloud>
+[Coders Computer](https://dannyace07.github.io/reading-notes/codersComputer)
+[Revisions and Cloud](https://dannyace07.github.io/reading-notes/RevisionsandCloud)
