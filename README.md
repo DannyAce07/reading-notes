@@ -13,6 +13,14 @@ Keeping myself in a growth mindset:
 
 ## Table of Contents
 
-[Coders Computer](https://dannyace07.github.io/reading-notes/codersComputer)
+[Learning Markdown](https://dannyace07.github.io/reading-notes/102/class1)
 
-[Revisions and Cloud](https://dannyace07.github.io/reading-notes/RevisionsandCloud)
+[Coder's Computer](https://dannyace07.github.io/reading-notes/102/class2) 
+
+[Revisions and Cloud](https://dannyace07.github.io/reading-notes/102/class3)
+
+[Structure Web Pages with HTML](https://dannyace07.github.io/reading-notes/102/class4)
+
+[Design Webpages with CSS](https://dannyace07.github.io/reading-notes/102/class5)
+
+[Dynamic Web Pages with JS](https://dannyace07.github.io/reading-notes/102/class6)
