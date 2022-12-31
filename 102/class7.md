@@ -69,13 +69,13 @@ You can use the same code many times with different arguments, to produce differ
 
 > #### Example
 > Convert Farenheit to Celsius:
->> function to Celsius(farenheit) {
+>>      function to Celsius(farenheit) {
 >> 
->> return (5/9) * (farenheit-32);
+>>      return (5/9) * (farenheit-32);
 >> 
->> }
+>>      }
 >> 
->> document.getElementbyId("demo").innerHTML = toCelsius(77);
+>>      document.getElementbyId("demo").innerHTML = toCelsius(77);
 
 ## The () Operator Invokes the Function
 
@@ -84,12 +84,12 @@ Using the example above, `toCelsius` refers to the function object, and `toCelsi
 Accessing a function without () will return the function object instead of the function result.
 
 > #### Example
-> function to Celsius(farenheit) {
+>       function to Celsius(farenheit) {
 > 
-> return (5/9) * (farenheit-32);
+>       return (5/9) * (farenheit-32);
 > 
-> }
-> document.getElementbyId("demo").innerHTML = toCelsius;
+>       }
+>       document.getElementbyId("demo").innerHTML = toCelsius;
 
 ## Functions Used as Variable Values
 
@@ -97,12 +97,12 @@ Functions can be used the same way as you use variables, in all types of formula
 
 > #### Example
 > Instead of using a variable to store the return value of a function:
->> let x = toCelsius(77);
+>>      let x = toCelsius(77);
 >> 
->> let text = "The temperature is " + x + " Celsius";
+>>      let text = "The temperature is " + x + " Celsius";
 >>
 > You can use the function directly, as a variable:
->> let text = "The temperature is " + toCelsius(77) + " Celsius";
+>>      let text = "The temperature is " + toCelsius(77) + " Celsius";
 
 ## Local Variables
 
@@ -111,17 +111,17 @@ Variables declared within a JavaScript Function, become **LOCAL** to the functio
 Local variables can only be accessed from within the function.
 
 > #### Example
->> // code here can NOT use carName
+>>      // code here can NOT use carName
 >> 
->> function myFunction() {
+>>       function myFunction() {
 >> 
->>      let carName = "Volvo";
+>>               let carName = "Volvo";
 >>      
->>      // code here CAN use carName
+>>              // code here CAN use carName
 >>      
->> }
+>>       }
 >> 
->> // code here can NOT use carName
+>>      // code here can NOT use carName
 
 Sincle local variables are only reconized inside their functions, variables with the same name can be used in different functions.
 
