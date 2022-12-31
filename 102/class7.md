@@ -56,7 +56,7 @@ Functions often compute a **return value**. The value "returned" is returned bac
 >         function myFunction(a, b) {
 >           return a * b;           // Function retuns the product of a and b
 >           }
-> The result in x will be:
+>> The result in x will be:
 >         12
 
 
