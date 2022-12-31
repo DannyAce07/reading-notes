@@ -13,7 +13,9 @@ Code is run in order from the first line in the file to the last line unless the
 
 A typical script in JavaScript or PHP includes many control structures, including conditionals, loops, and functions. Parts of a script may also include a loop, which iterates when the user clicks the **Submit** button for the form. The fuction could also include a loop which iterates through all fields in the form, checking each one in turn. Looking back at the code in the `if` and `else` sections, the lines `promptUser` and `submitForm` could also be calls to other functions in the script. Control flow means that when you read a script, you must not only read from start to finish but also look at program structures and how they affect order of execution.
 
-## JavaScript Function Syntax
+## Functions
+
+### JavaScript Function Syntax
 
 Javascript functions are defined by the `function` keyword, followed by a **name** followed by parenthesis **()**.
 
@@ -34,14 +36,14 @@ Code to be executed by the function is placed inside curly brackets: **{}**
 
 Inside the function, the arguments (the parameters) behave as local variables.
 
-## Function Invocation
+### Function Invocation
 
 The code inside the function will execute when something calls the function:
 * when an event occurs (a user clicks a button)
 * when it is called from  JavaScript code
 * Automatically (self invoked)
 
-## Function Return
+### Function Return
 
 When JavaScript reaches a `return` statement, the function will stop executing.
 
@@ -61,7 +63,7 @@ Functions often compute a **return value**. The value "returned" is returned bac
 >The result in x will be:
 >>       12
 
-## Why Functions?
+### Why Functions?
 
 You can reuse code: Define the code once, and use it many times.
 
@@ -77,7 +79,7 @@ You can use the same code many times with different arguments, to produce differ
 >> 
 >>      document.getElementbyId("demo").innerHTML = toCelsius(77);
 
-## The () Operator Invokes the Function
+### The () Operator Invokes the Function
 
 Using the example above, `toCelsius` refers to the function object, and `toCelsius()` refers to the function result.
 
@@ -91,7 +93,7 @@ Accessing a function without () will return the function object instead of the f
 >       }
 >       document.getElementbyId("demo").innerHTML = toCelsius;
 
-## Functions Used as Variable Values
+### Functions Used as Variable Values
 
 Functions can be used the same way as you use variables, in all types of formulas, assignments, and calculations.
 
@@ -105,7 +107,7 @@ Functions can be used the same way as you use variables, in all types of formula
 > 
 >>      let text = "The temperature is " + toCelsius(77) + " Celsius";
 
-## Local Variables
+### Local Variables
 
 Variables declared within a JavaScript Function, become **LOCAL** to the function.
 
@@ -127,3 +129,59 @@ Local variables can only be accessed from within the function.
 Sincle local variables are only reconized inside their functions, variables with the same name can be used in different functions.
 
 Local variables are created when a function start, and deleted when the function is completed
+
+## Operators
+
+The **Assignment Operator** (`=`) assigns value to a variable
+
+> #### Assignment Examples
+>       let x = 10;
+>>
+>       //Assign the value 5 to x
+>       
+>       let x = 5;
+>       
+>       //Assign the value 2 to y
+>       
+>       let y = 2;
+>       
+>       //Assign the value x + y to z:
+>       
+>       let z = x + y;
+
+### Types of Javascript Operators
+
+* Arithmetic 
+* Assignment 
+* Comparison
+* Logical
+* Conditional
+* Type
+
+### Adding JS Strings
+
+> #### Example
+>>      let text1 = "John";
+>>      
+>>      let text2 = "Doe";
+>>      
+>>      let text3 = text1 + " " + Text2;
+>>      
+> The result of text3 will be
+> 
+>>      John Doe
+
+The `+=` assignment operator can also be used to add (concatenate) strings:
+
+> #### Example
+>>      let text1 = "What a very ";
+>>      
+>>      text1 += "nice day";
+>>      
+> The result of text1 will be:
+> 
+>>      What a very nice day
+
+### Adding Strings and Numbers
+
+Adding two numbers will return the sum, but adding a number and a string will return a string
