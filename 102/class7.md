@@ -53,13 +53,13 @@ Functions often compute a **return value**. The value "returned" is returned bac
 > Calculate the product of two numbers, and return the result:
 >>
 >         let x = myFunction(4, 3); //function is called, return value end up in x
->
->         function myFunction(a, b) {
->           return a * b;           // Function retuns the product of a and b
->           }
->> 
+>>
+>>        function myFunction(a, b) {
+>>         return a * b;           // Function retuns the product of a and b
+>>           }
+> 
 >The result in x will be:
->       12
+>>       12
 
 
 
