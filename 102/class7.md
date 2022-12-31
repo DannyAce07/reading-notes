@@ -61,6 +61,57 @@ Functions often compute a **return value**. The value "returned" is returned bac
 >The result in x will be:
 >>       12
 
+## Why Funtions?
 
+You can reuse code: Define the code once, and use it many times.
 
+You can use the same code many times with different arguments, to produce differet results. 
 
+> #### Example
+> Convert Farenheit to Celsius:
+>> function to Celsius(farenheit) {
+>> return (5/9) * (farenheit-32);
+>> }
+>> document.getElementbyId("demo").innerHTML = toCelsius(77);
+
+## The () Operator Invokes the Function
+
+Using the example above, `toCelsius` refers to the function object, and `toCelsius()` refers to the function result.
+
+Accessing a function without () will return the function object instead of the function result.
+
+> #### Example
+> function to Celsius(farenheit) {
+> return (5/9) * (farenheit-32);
+> }
+> document.getElementbyId("demo").innerHTML = toCelsius;
+
+## Functions Used as Variable Values
+
+Functions can be used the same way as you use variables, in all types of formulas, assignments, and calculations.
+
+> #### Example
+> Instead of using a variable to store the return value of a function:
+>> let x = toCelsius(77);
+>> let text = "The temperature is " + x + " Celsius";
+> You can use the function directly, as a variable:
+>> let text = "The temperature is " + toCelsius(77) + " Celsius";
+
+## Local Variables
+
+Variables declared within a JavaScript Function, become **LOCAL** to the function.
+
+Local variables can only be accessed from within the function.
+
+> #### Example
+>> // code here can NOT use carName
+>> 
+>> function myFunction() {
+>>      let carName = "Volvo";
+>>      // code here CAN use carName
+>> }
+>> // code here can NOT use carName
+
+Sincle local variables are only reconized inside their functions, variables with the same name can be used in different functions.
+
+Local variables are created when a function start, and deleted when the function is completed
