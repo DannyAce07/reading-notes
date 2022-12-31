@@ -57,7 +57,7 @@ Functions often compute a **return value**. The value "returned" is returned bac
 >           return a * b;           // Function retuns the product of a and b
 >           }
 >> The result in x will be:
->         12
+>                                       12
 
 
 
