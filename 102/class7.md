@@ -102,6 +102,7 @@ Functions can be used the same way as you use variables, in all types of formula
 >>      let text = "The temperature is " + x + " Celsius";
 >>
 > You can use the function directly, as a variable:
+> 
 >>      let text = "The temperature is " + toCelsius(77) + " Celsius";
 
 ## Local Variables
