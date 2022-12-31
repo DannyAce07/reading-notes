@@ -26,3 +26,5 @@ Keeping myself in a growth mindset:
 [Dynamic Web Pages with JS](https://dannyace07.github.io/reading-notes/102/class6)
 
 [Programming With JavaScript](https://dannyace07.github.io/reading-notes/102/class7)
+
+[Operators and Loops](https://dannyace07.github.io/reading-notes/102/class8)
