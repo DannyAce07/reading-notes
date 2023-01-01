@@ -89,3 +89,37 @@ By chaining or nesting an assignment expression, its result can itself be assign
 
 Comparison Operators compare their operands and return logical values based on whether the comparison is true.The operands can be numerical, strings, logical, or objects. Strings are compared based on standard lexicographical ordering, using Unicode values. In most cases if operands are not of the same type JavaScripts attempts to convert them to an appropriate type for comparison, usually resulting in comparing the operands numerically. The sole exceptions to type comparisons involve the `===` and `!==` operators, which perform strict equality and inequality comparisons. These operators do not attempt to convert the operands to compatible types before checking inequality.
 
+## Loops
+
+Loops offer a quick way to do something repeatedley. Think of a loop as a computerized version of the game where you tell someone to take X steps in one direction, then  Y steps in another. For example, the idea "go five steps to the east" could be expressed as such:
+
+        for (let step = 0; step < 5; step++) {
+        // Runs 5 times, with values of step 0 through 4.
+        console.log('Walking east one step');
+        }
+        
+There are many different kind of loops, all repeating an action  a number of times. There are various situations that are more easily served by one typre of loop over the others. The Statement for loops provided in JavaScript are:
+* for
+* do...while
+* while
+* labeled
+* break
+* continue
+* for...in
+* for...of
+
+### For statement
+
+`for` loops repeat themselves until a specified condition evaluates to false. The JS `for` loop is similar to the Java and C `for` loop.
+
+When a `for` loop executes, the following occurs:
+
+The initializing expression `initialExpression`, if any, is executed. This expression usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+
+The `conditionExpression` expression is evaluated. If the value of `conditionExpression` is true, the loop statements execute. Otherwise, the `for` loop terminates. (If the `conditionExpression` expression is omitted entirely, the condition is assumed to be true.)
+
+The `statement` executes. To execute multiple statements, use a block statement (`{ }`) to group those statements.
+
+If present, the update expression `incrementExpression` is executed.
+
+Control returns to Step 2.
