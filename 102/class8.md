@@ -65,5 +65,27 @@ In general, assignments are used within a variable declaration.
         
         
         x = g(); // Reassigns the variable x to the result of g().
+        
+Assignment expressions like `x = f()` evaluate into a result value. Although this result value is usually not used, it can be used by another expression.
 
-Focus only on Comparison operators and Assignment operators.
+Chaining assignments or nesting assignments in another expression can result in surprising behavior. For this reason it is sometimes discouraged. Nevertheless it may occur.
+
+By chaining or nesting an assignment expression, its result can itself be assigned to another variable. It can be logged, put inside an array literal or function call, and so on.
+
+                                let x;
+                                
+                                const y = (x = f()); //Or equivalently: cont y = x = f();
+                                console.log(y); // logs the return value of the assignment x = f().
+                                
+                                console.log(x = f()); // Logs the return value directly
+                                
+                                // An assignment expression can be nested in any place
+                                // where expressions are generally allowed,
+                                // such as array literals' elements or as function calls' arguments.
+                                console.log([ 0, x = f(), 0 ]);
+                                console.log(f(0, x f(), 0));
+                                
+## Comparison Operators
+
+Comparison Operators compare their operands and return logical values based on whether the comparison is true.The operands can be numerical, strings, logical, or objects. Strings are compared based on standard lexicographical ordering, using Unicode values. In most cases if operands are not of the same type JavaScripts attempts to convert them to an appropriate type for comparison, usually resulting in comparing the operands numerically. The sole exceptions to type comparisons involve the `===` and `!==` operators, which perform strict equality and inequality comparisons. These operators do not attempt to convert the operands to compatible types before checking inequality.
+
