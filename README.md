@@ -12,6 +12,7 @@ Keeping myself in a growth mindset:
 3. Be better than you were last year, last month, last week
 
 ## Table of Contents
+### 102 Notes
 
 [Learning Markdown](https://dannyace07.github.io/reading-notes/102/class1)
 
@@ -28,3 +29,35 @@ Keeping myself in a growth mindset:
 [Programming With JavaScript](https://dannyace07.github.io/reading-notes/102/class7)
 
 [Operators and Loops](https://dannyace07.github.io/reading-notes/102/class8)
+
+### 201 Notes
+
+[201_01](https://dannyace07.github.io/reading-notes/201/01)
+
+[201_02](https://dannyace07.github.io/reading-notes/201/02)
+
+[201_03](https://dannyace07.github.io/reading-notes/201/03)
+
+[201_04](https://dannyace07.github.io/reading-notes/201/04)
+
+[201_05](https://dannyace07.github.io/reading-notes/201/05)
+
+[201_06](https://dannyace07.github.io/reading-notes/201/06)
+
+[201_07](https://dannyace07.github.io/reading-notes/201/07)
+
+[201_08](https://dannyace07.github.io/reading-notes/201/08)
+
+[201_09](https://dannyace07.github.io/reading-notes/201/09)
+
+[201_10](https://dannyace07.github.io/reading-notes/201/10)
+
+[201_11](https://dannyace07.github.io/reading-notes/201/11)
+
+[201_12](https://dannyace07.github.io/reading-notes/201/12)
+
+[201_13](https://dannyace07.github.io/reading-notes/201/13)
+
+[201_14](https://dannyace07.github.io/reading-notes/201/14)
+
+[201_15](https://dannyace07.github.io/reading-notes/201/15)
